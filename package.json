@@ -1,0 +1,16 @@
+{
+  "name": "mean_game",
+  "version": "1.0.0",
+  "description": "Mean Game",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Seavpheng",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "expresss": "^0.0.0"
+  }
+}
