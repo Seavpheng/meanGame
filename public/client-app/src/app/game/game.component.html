@@ -1,0 +1,19 @@
+<H1>{{game.title}} <stars-rating [rating]='game.rate'></stars-rating> </H1>
+
+<table>
+    <tr>
+        <td>Min Players</td> 
+        <td>:</td>
+        <td>{{game.minPlayers}}</td>
+    </tr>
+
+    <tr>
+        <td>Max Players</td>
+        <td>:</td>
+        <td>{{game.maxPlayers}}</td>
+    </tr>
+</table> 
+
+<button (click)='delete(game._id)'>Delete</button>
+
+<a routerLink="/games"> Back </a>
